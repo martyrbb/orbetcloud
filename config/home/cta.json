@@ -1,0 +1,15 @@
+{
+  "header": {
+    "title": "Ready to revolutionize",
+    "accent": "your venue?",
+    "description": "Bring your bookings, operations, payments, and customer experience together with Orbet."
+  },
+  "primaryBtn": {
+    "text": "Get Started",
+    "href": "/get-started"
+  },
+  "secondaryBtn": {
+    "text": "Contact Sales",
+    "href": "/contact"
+  }
+}

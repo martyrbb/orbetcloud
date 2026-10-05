@@ -1,0 +1,11 @@
+{
+  "site": {
+    "name": "Orbet",
+    "description": "",
+    "url": "https://orbet.co.uk",
+    "themeColor": "red",
+    "ogImage": "/images/og.webp",
+    "logo": "/images/orbet-logo.png",
+    "twitter": "@neuxnode"
+  }
+}

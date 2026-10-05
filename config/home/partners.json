@@ -1,0 +1,17 @@
+{
+  "speed": 100,
+  "style": {
+    "height": 45,
+    "opacity": 0.4
+  },
+  "partners": [
+    "roxy.svg",
+    "lane7.svg",
+    "weeplay.png",
+    "wonderworld.png",
+    "buddys.png",
+    "innoflate.webp",
+    "kingpins.webp"
+
+  ]
+}

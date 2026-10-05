@@ -1,0 +1,30 @@
+{
+  "header": {
+    "title": "Everything works",
+    "accent": "together",
+    "description": "Tailored hosting solutions for every scale."
+  },
+  "items": [
+    {
+      "title": "Save Time",
+      "desc": "Less admin. More doing. Automate everyday tasks and keep your team focused on running the venue.",
+      "icon": "Gamepad2",
+      "href": "/game-hosting",
+      "comingSoon": false
+    },
+    {
+      "title": "Know Your Business",
+      "desc": "Clearer insights. Better decisions. See what is happening across your bookings, sales, customers, and venue.",
+      "icon": "Cloud",
+      "href": "/vps-hosting",
+      "comingSoon": false
+    },
+    {
+      "title": "Built to Grow",
+      "desc": "Ready for what's next. A flexible platform that grows with your venue as your business changes.",
+      "icon": "Server",
+      "href": "/dedicated-servers",
+      "comingSoon": true
+    }
+  ]
+}

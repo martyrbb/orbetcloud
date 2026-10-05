@@ -1,0 +1,57 @@
+{
+  "alert": {
+    "enabled": false,
+    "bgStyle": "bg-red-800",
+    "borderStyle": "border-b border-blue-700/50",
+    "promo": {
+      "iconType": "wave",
+      "fullMessage": "Meet Orbet. The all-in-one platform for modern leisure venues. →",
+      "textColor": "text-white"
+    },
+    "socials": {
+      "whatsapp": {
+        "enabled": false,
+        "number": "1234567890",
+        "label": "+1 234 567 890",
+        "iconColor": "text-green-400"
+      },
+      "status": {
+        "enabled": true,
+        "url": "https://status.orbetcloud.com",
+        "label": "Service Status",
+        "iconColor": "text-white"
+      },
+      "discord": {
+        "enabled": true,
+        "url": "https://discord.gg/U274JnqCkv",
+        "label": "Support Centre",
+        "iconColor": "text-white"
+      }
+    }
+  },
+  "brand": {
+    "name": "",
+    "logoPath": "/images/orbet-logo.png"
+  },
+"navLinks": [
+  {
+    "name": "Platform",
+    "dropdown": true,
+    "items": [
+      { "name": "Online Bookings", "href": "/platform/online-bookings" },
+      { "name": "Venue Manager", "href": "/platform/venue-manager" },
+      { "name": "OrbetPOS™", "href": "/platform/orbetpos" },
+      { "name": "OrbetKDS™", "href": "/platform/orbetkds" },
+      { "name": "OrbetPay™", "href": "/platform/orbetpay" }
+    ]
+  },
+  { "name": "Features", "href": "/features", "dropdown": false },
+  { "name": "Pricing", "href": "/pricing", "dropdown": false },
+  { "name": "Resources", "href": "/resources", "dropdown": false }
+],
+  "buttons": {
+    "login": { "label": "Login", "href": "https://auth.orbetcloud.com", "enabled": true },
+    "signup": { "label": "Get Started", "href": "/get-started", "enabled": true } 
+  
+  }
+}

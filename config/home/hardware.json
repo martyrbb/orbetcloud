@@ -1,0 +1,35 @@
+{
+  "header": {
+    "title": "Enterprise-Grade",
+    "accent": "Infastructure",
+    "description": "Built on reliable technology and secure infrastructure to keep your venue connected, responsive, and ready for business.",
+    "ctaText": "Explore our Platform",
+    "ctaHref": "https://browser.geekbench.com/v6/cpu/17513419"
+  },
+  "specs": [
+    {
+      "label": "Performance",
+      "value": "Built to keep up.",
+      "desc": "Orbet is designed to handle busy venues, high booking volumes, and everyday operations without slowing you down.",
+      "icon": "Cpu"
+    },
+    {
+      "label": "Security",
+      "value": "Your data stays protected.",
+      "desc": "Secure infrastructure and modern security practices help keep your venue and customer information protected.",
+      "icon": "Database"
+    },
+    {
+      "label": "Reliability",
+      "value": "Always ready when you are.",
+      "desc": "Reliable systems keep the platform running smoothly so your team can focus on your customers.",
+      "icon": "MemoryStick"
+    },
+    {
+      "label": "Connectivity",
+      "value": "Everything  connected.",
+      "desc": "Bookings, payments, sales, and operations work together through one connected platform.",
+      "icon": "Shield"
+    }
+  ]
+}

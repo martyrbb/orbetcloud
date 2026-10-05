@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": "Manage Your Venue",
+    "accent": "Like a Pro",
+    "description": "Everything you need to stay organised, understand your business, and give your team more control over the day-to-day."
+  },
+  "tabs": [
+    {
+      "id": "console",
+      "label": "Customer Management",
+      "icon": "Users",
+      "image": "/images/panel-console.png"
+    },
+    {
+      "id": "files",
+      "label": "Staff Management",
+      "icon": "User",
+      "image": "https://placehold.co/1920x1080"
+    },
+    {
+      "id": "subusers",
+      "label": "Memberships",
+      "icon": "CreditCard",
+      "image": "https://placehold.co/1920x1080"
+    },
+    {
+      "id": "backups",
+      "label": "Gift Vouchers",
+      "icon": "Book",
+      "image": "https://placehold.co/1920x1080"
+    },
+    {
+      "id": "network",
+      "label": "Automations",
+      "icon": "SquareTerminal",
+      "image": "https://placehold.co/1920x1080"
+    },
+    {
+      "id": "schedules",
+      "label": "Reports and Insights",
+      "icon": "FolderOpen",
+      "image": "https://placehold.co/1920x1080"
+    }
+  ]
+}

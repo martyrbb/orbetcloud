@@ -1,0 +1,20 @@
+{
+  "content": {
+    "title": "The Platform Built",
+    "accent": "for Leisure Venues",
+    "description": "Built for venues that expect performance without compromise. Orbet brings bookings, payments, POS, kitchen management, and venue operations together in one powerful platform, designed to keep your business running smoothly while giving your team everything they need in one place.",
+    "primaryBtn": { "text": "Get Started", "href": "/get-started" },
+    "secondaryBtn": { "text": "Explore Orbet", "href": "/explore" }
+  },
+  "sections": {
+    "partners": true,
+    "features": true,
+    "services": false,
+    "locations": false,
+    "panel": true,
+    "hardware": true,
+    "faq": true,
+    "testimonials": true,
+    "cta": true
+  }
+}

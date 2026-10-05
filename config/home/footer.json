@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "description": "Orbet gives leisure venues the tools to manage bookings, operations, payments, and customers, all from one connected platform."
+  },
+  "status": {
+    "url": "https://status.orbetcloud.com",
+    "text": "All Systems Operational"
+  },
+  "watermark": {
+    "enabled": true,
+    "url": "https://orbet.co.uk"
+  },
+  "sections": [
+    {
+      "title": "Platform",
+      "links": [
+        { "label": "Venue Manager ", "url": "/game-servers" },
+        { "label": "Online Bookings ", "url": "/game-servers" },
+        { "label": "OrbetPOS™", "url": "/game-servers" },
+        { "label": "OrbetKDS™", "url": "/dedicated-servers" },
+        { "label": "OrbetPay™", "url": "/web-hosing" }
+      ]
+    },
+    {
+      "title": "Features",
+      "links": [
+        { "label": "Customer Management", "url": "/legal/terms-of-service" },
+        { "label": "Staff Management", "url": "/legal/privacy-policy" },
+        { "label": "Memberships", "url": "/legal/service-level-agreement" },
+        { "label": "Gift Vouchers", "url": "/legal/service-level-agreement" },
+        { "label": "Reporting", "url": "/legal/refund-policy" }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        { "label": "About Orbet", "url": "#" },
+        { "label": "Pricing", "url": "#" },
+        { "label": "Contact Us", "url": "#" },
+        { "label": "Careers", "url": "#" }
+      ]
+    },
+    {
+      "title": "Support",
+      "links": [
+        { "label": "Help Centre", "url": "#" },
+        { "label": "FAQs", "url": "#" },
+        { "label": "Getting Started", "url": "#" },
+        { "label": "Systsem Status", "url": "#" }
+      ]
+    }
+  ],
+  "socials": [
+    { "platform": "Discord", "url": "https://discord.gg/U274JnqCkv", "enabled": true },
+    { "platform": "Instagram", "url": "https://instagram.com/neuxnode", "enabled": true },
+    { "platform": "Youtube", "url": "https://youtube.com/neuxnode", "enabled": true },
+    { "platform": "Facebook", "url": "https://facebook.com/neuxnode", "enabled": false },
+    { "platform": "Linkedin", "url": "https://linkedin.com/neuxnode", "enabled": false },
+    { "platform": "Tiktok", "url": "https://tiktok.com/neuxnode", "enabled": false },
+    { "platform": "Trustpilot", "url": "https://trustpilot.com/neuxnode", "enabled": true },
+    { "platform": "Email", "url": "mailto:support@neuxnode.com", "enabled": true }
+  ]
+}

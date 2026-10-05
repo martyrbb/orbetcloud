@@ -1,0 +1,40 @@
+{
+  "header": {
+    "title": "Built for your",
+    "accent": "venue.",
+    "description": "Powerful tools designed to bring bookings, payments, operations, and customer management together in one simple platform."
+  },
+  "items": [
+    {
+      "title": "Online Bookings",
+      "desc": "Make booking simple. Give customers an easy way to discover your venue, choose a session, and book online.",
+      "icon": "Calendar"
+    },
+    {
+      "title": "Venue Management",
+      "desc": "Run everything in one place. Manage your venue, customers, sessions, availability, and day-to-day operations.",
+      "icon": "Building"
+    },
+    {
+      "title": "OrbetPOS™",
+      "desc": "Your venue, ready to sell. Manage in-venue sales, products, payments, and customer transactions with ease.",
+      "icon": "Computer"
+    },
+    {
+      "title": "OrbetKDS™",
+      "desc": "Keep every order moving. Send food and drink orders straight to your kitchen and keep your team in sync.",
+      "icon": "Tablet"
+    },
+    {
+      "title": "Reporting & Analytics",
+      "desc": "See how your venue performs. Understand bookings, sales, customers, and revenue with clear reporting.",
+      "icon": "Book"
+    },
+    {
+      "title": "OrbetPay™",
+      "desc": "Payments made simple. Take secure payments online and in venue while keeping everything connected to Orbet.",
+      "icon": "CreditCard"
+
+    }
+  ]
+}
