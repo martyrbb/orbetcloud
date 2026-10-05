@@ -1,7 +1,7 @@
 {
-  "name": "orbet-web",
+  "name": "orbetcloud",
   "version": "1.0.0",
-  "author": "Huzaifa Mughal",
+  "author": "Orbet UK",
   "scripts": {
     "dev": "next dev --port 3002",
     "build": "next build",
