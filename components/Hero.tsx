@@ -29,7 +29,7 @@ const HeroSection = () => {
             className="absolute inset-0"
           >
             <Image
-              src="/images/hero-bg55.png"
+              src="/images/grid-scaled.png"
               alt="Background Illustration"
               fill
               className="object-cover"
