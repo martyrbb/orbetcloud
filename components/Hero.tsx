@@ -25,7 +25,7 @@ const HeroSection = () => {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.4 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 1.2 }}
             className="absolute inset-0"
           >
             <Image
