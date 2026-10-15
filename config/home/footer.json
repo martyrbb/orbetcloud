@@ -4,60 +4,107 @@
   },
   "status": {
     "url": "https://status.orbetcloud.com",
-    "text": "All Systems Operational"
+    "text": "Service status"
   },
   "watermark": {
-    "enabled": true,
+    "enabled": false,
     "url": "https://orbet.co.uk"
   },
   "sections": [
     {
       "title": "Platform",
       "links": [
-        { "label": "Venue Manager ", "url": "/game-servers" },
-        { "label": "Online Bookings ", "url": "/game-servers" },
-        { "label": "OrbetPOS™", "url": "/game-servers" },
-        { "label": "OrbetKDS™", "url": "/dedicated-servers" },
-        { "label": "OrbetPay™", "url": "/web-hosing" }
+        {
+          "label": "Venue Manager",
+          "url": "/platform/venue-manager"
+        },
+        {
+          "label": "Online Bookings",
+          "url": "/platform/online-bookings"
+        },
+        {
+          "label": "OrbetPOS\u2122",
+          "url": "/platform/orbetpos"
+        },
+        {
+          "label": "OrbetKDS\u2122",
+          "url": "/platform/orbetkds"
+        },
+        {
+          "label": "OrbetPay\u2122",
+          "url": "/platform/orbetpay"
+        }
       ]
     },
     {
       "title": "Features",
       "links": [
-        { "label": "Customer Management", "url": "/legal/terms-of-service" },
-        { "label": "Staff Management", "url": "/legal/privacy-policy" },
-        { "label": "Memberships", "url": "/legal/service-level-agreement" },
-        { "label": "Gift Vouchers", "url": "/legal/service-level-agreement" },
-        { "label": "Reporting", "url": "/legal/refund-policy" }
+        {
+          "label": "Customer Management",
+          "url": "/features#customer-management"
+        },
+        {
+          "label": "Staff Management",
+          "url": "/features#staff-rotas-timesheets"
+        },
+        {
+          "label": "Memberships",
+          "url": "/features#memberships-member-events"
+        },
+        {
+          "label": "Gift Vouchers",
+          "url": "/features#gift-vouchers"
+        },
+        {
+          "label": "Reporting",
+          "url": "/features#booking-revenue-reporting"
+        }
       ]
     },
     {
       "title": "Company",
       "links": [
-        { "label": "About Orbet", "url": "#" },
-        { "label": "Pricing", "url": "#" },
-        { "label": "Contact Us", "url": "#" },
-        { "label": "Careers", "url": "#" }
+        {
+          "label": "About Orbet",
+          "url": "/about"
+        },
+        {
+          "label": "Pricing",
+          "url": "/pricing"
+        },
+        {
+          "label": "Contact Us",
+          "url": "/contact"
+        }
       ]
     },
     {
       "title": "Support",
       "links": [
-        { "label": "Help Centre", "url": "#" },
-        { "label": "FAQs", "url": "#" },
-        { "label": "Getting Started", "url": "#" },
-        { "label": "Systsem Status", "url": "#" }
+        {
+          "label": "Help Centre",
+          "url": "/support"
+        },
+        {
+          "label": "FAQs",
+          "url": "/faq"
+        },
+        {
+          "label": "Getting Started",
+          "url": "/resources/getting-started"
+        },
+        {
+          "label": "Service Status",
+          "url": "https://status.orbetcloud.com"
+        }
       ]
     }
   ],
   "socials": [
-    { "platform": "Discord", "url": "https://discord.gg/U274JnqCkv", "enabled": true },
-    { "platform": "Instagram", "url": "https://instagram.com/neuxnode", "enabled": true },
-    { "platform": "Youtube", "url": "https://youtube.com/neuxnode", "enabled": true },
-    { "platform": "Facebook", "url": "https://facebook.com/neuxnode", "enabled": false },
-    { "platform": "Linkedin", "url": "https://linkedin.com/neuxnode", "enabled": false },
-    { "platform": "Tiktok", "url": "https://tiktok.com/neuxnode", "enabled": false },
-    { "platform": "Trustpilot", "url": "https://trustpilot.com/neuxnode", "enabled": true },
-    { "platform": "Email", "url": "mailto:support@neuxnode.com", "enabled": true }
+    {
+      "platform": "Email",
+      "url": "mailto:support@orbet.co.uk",
+      "enabled": true
+    }
   ]
 }

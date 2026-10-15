@@ -13,11 +13,11 @@ const NotFound = () => {
           </h1>
 
           <h2 className="text-2xl md:text-3xl font-bold text-zinc-100 mb-2">
-            Looks like you've ended up somewhere that doesn't exist.
+            Looks like you&apos;ve ended up somewhere that doesn&apos;t exist.
           </h2>
 
           <p className="text-zinc-500 text-base md:text-lg max-w-sm mb-10">
-            The page you're looking for doesn't exist or has been moved.
+            The page you&apos;re looking for doesn&apos;t exist or has been moved.
           </p>
 
           <div className="flex flex-row gap-4">

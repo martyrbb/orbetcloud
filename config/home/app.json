@@ -1,11 +1,11 @@
 {
   "site": {
     "name": "Orbet",
-    "description": "",
+    "description": "Orbet brings bookings, customers, payments, sales and everyday leisure venue operations together in one connected platform.",
     "url": "https://orbet.co.uk",
-    "themeColor": "red",
-    "ogImage": "/images/og.webp",
+    "themeColor": "#0d0f12",
+    "ogImage": "/opengraph-image",
     "logo": "/images/orbet-logo.png",
-    "twitter": "@neuxnode"
+    "twitter": ""
   }
 }

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: config.site.logo, href: config.site.logo },
-      { url: "/favicon.ico", href: "/favicon.ico" }
+
     ],
     apple: [
       { url: config.site.logo, href: config.site.logo }
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: config.site.name,
     description: config.site.description,
-    creator: config.site.twitter,
+    creator: config.site.twitter || undefined,
     images: [config.site.ogImage],
   },
 };

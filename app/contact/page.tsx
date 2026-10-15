@@ -1,0 +1,5 @@
+import type { Metadata } from "next";
+import MarketingPage from "@/components/MarketingPage";
+import EnquiryForm from "./EnquiryForm";
+export const metadata:Metadata={title:"Contact",description:"Talk to Orbet about plans, Enterprise, integrations or support."};
+export default function ContactPage(){return <MarketingPage eyebrow="Let’s talk" title="Tell us what you have in mind." intro="Choosing a plan, preparing a larger rollout or looking for help? Send us a little about your business and what you need."><div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-8"><div className="rounded-3xl border border-zinc-700 bg-[#191d23] p-8 h-fit"><h2 className="text-2xl font-bold">A conversation starts here.</h2><p className="text-zinc-300 leading-relaxed text-sm mt-5">For Enterprise, tell us about your venues, your team and the tools you’d like to connect.</p><a className="inline-block mt-7 font-bold break-all text-[#C8FF00]" href="mailto:support@orbet.co.uk">support@orbet.co.uk</a><p className="mt-6 text-xs text-zinc-400 leading-relaxed">You can email us directly or use the form to prepare a message in your email app.</p></div><EnquiryForm /></div></MarketingPage>;}

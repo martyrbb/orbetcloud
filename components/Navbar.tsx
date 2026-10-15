@@ -73,7 +73,7 @@ const Navbar = () => {
         <div className={`max-w-360 mx-auto flex items-center justify-between px-6 lg:px-10 transition-all duration-500 ${!isScrolled ? 'py-5' : 'py-2.5'}`}>
           <div className="flex items-center md:flex-1">
             <Link href="/" className="flex items-center gap-3.5 group">
-              <Image src={config.brand.logoPath} alt="Neuxnode" width={300} height={100} className="w-80 h-8 md:w-40 md:h-10 object-contain transition-transform group-hover:scale-105" />
+              <Image src={config.brand.logoPath} alt="Orbet" width={300} height={100} className="w-80 h-8 md:w-40 md:h-10 object-contain transition-transform group-hover:scale-105" />
               <span className="font-bold text-lg md:text-xl tracking-tight text-white">{config.brand.name}</span>
             </Link>
           </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
                       {link.name}
                       <ChevronDown size={14} className="transition-transform group-hover:rotate-180" />
                     </button>
-                    <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0">
+                    <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 group-focus-within:translate-y-0">
                       <div className="bg-zinc-950 border-2 border-zinc-800/50 rounded-[23px] p-1.5 w-52">
                         {link.items?.map((sub) => (
                           <Link
@@ -119,30 +119,30 @@ const Navbar = () => {
                 {config.buttons.signup.label}
               </Link>
             )}
-            <button className="md:hidden text-white" onClick={() => setIsOpen(true)}>
+            <button aria-label="Open navigation" aria-expanded={isOpen} className="md:hidden text-white" onClick={() => setIsOpen(true)}>
               <Menu size={28} />
             </button>
           </div>
         </div>
       </nav>
-      <div className={`fixed inset-0 z-100 bg-zinc-950 transition-all duration-300 ${isOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"}`}>
+      <div inert={!isOpen} onKeyDown={(event) => { if (event.key === "Escape") setIsOpen(false); }} className={`fixed inset-0 z-100 bg-zinc-950 transition-all duration-300 ${isOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"}`}>
         <div className="flex items-center justify-between px-6 py-6 border-b border-white/5">
           <div className="flex items-center gap-3">
-            <Image src={config.brand.logoPath} alt="Logo" width={100} height={132} className="w-7 h-7" />
+            <Image src={config.brand.logoPath} alt="Orbet" width={100} height={132} className="w-7 h-7" />
             <span className="font-bold text-xl text-white uppercase tracking-tight">{config.brand.name}</span>
           </div>
-          <button onClick={() => setIsOpen(false)} className="text-zinc-400"><X size={32} /></button>
+          <button aria-label="Close navigation" onClick={() => setIsOpen(false)} className="text-zinc-400"><X size={32} /></button>
         </div>
         <div className="flex flex-col px-10 mt-6 overflow-y-auto max-h-[calc(100dvh-120px)]">
           {config.navLinks.map((link, i) => (
             <div key={link.name} className={`border-b border-white/5 transition-all ${isOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"}`} style={{ transitionDelay: `${i * 40}ms` }}>
               {link.dropdown ? (
                 <>
-                  <button onClick={() => setMobileLegalOpen(!mobileLegalOpen)} className="w-full text-base font-bold py-5 text-white flex justify-between items-center">
+                  <button aria-expanded={mobileLegalOpen} onClick={() => setMobileLegalOpen(!mobileLegalOpen)} className="w-full text-base font-bold py-5 text-white flex justify-between items-center">
                     {link.name}
                     <ChevronDown size={20} className={`transition-transform duration-300 ${mobileLegalOpen ? 'rotate-180' : ''}`} />
                   </button>
-                  <div className={`overflow-hidden transition-all duration-300 ${mobileLegalOpen ? 'max-h-60 pb-4' : 'max-h-0'}`}>
+                  <div inert={!mobileLegalOpen} className={`overflow-hidden transition-all duration-300 ${mobileLegalOpen ? 'max-h-60 pb-4' : 'max-h-0'}`}>
                     {link.items?.map((sub) => (
                       <Link key={sub.name} href={sub.href} onClick={() => setIsOpen(false)} className="block py-3 text-zinc-500 font-medium hover:text-[#C8FF00] transition-colors">
                         {sub.name}
@@ -158,6 +158,7 @@ const Navbar = () => {
             </div>
           ))}
           <div className={`flex flex-col gap-4 mt-8 pb-10 transition-all duration-500 ${isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"}`}>
+            {config.buttons.login.enabled && <Link href={config.buttons.login.href} onClick={() => setIsOpen(false)} className="w-full py-3 text-center text-sm font-bold text-zinc-300">{config.buttons.login.label}</Link>}
             <Link href={config.buttons.signup.href} onClick={() => setIsOpen(false)} className="w-full bg-linear-to-br bg-[#C8FF00] py-4 rounded-full text-center text-sm font-bold text-black shadow-lg shadow-[#C8FF00]/20">
               {config.buttons.signup.label}
             </Link>

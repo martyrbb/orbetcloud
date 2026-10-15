@@ -5,14 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Partners from "./Partners";
-import Features from "./Features";
-import Locations from "./Locations";
-import Hardware from "./Hardware";
-import Services from "./Services";
-import FAQ from "./FAQ";
-import Panel from "./Panel";
-import Testimonials from "./Testimonials";
-import CTA from "./CTA";
+import HomeShowcase from "./HomeShowcase";
 import heroConfig from "@/config/home/hero.json";
 
 const HeroSection = () => {
@@ -78,16 +71,7 @@ const HeroSection = () => {
         <div className="absolute bottom-0 left-0 w-full" />
       </section>
 
-      <div className="bg-black py-5 md:py-20">
-        {sections.features && <Features />}
-        {sections.services && <Services />}
-        {sections.locations && <Locations />}
-        {sections.panel && <Panel />}
-        {sections.hardware && <Hardware />}
-        {sections.testimonials && <Testimonials />}
-        {sections.faq && <FAQ />}
-        {sections.cta && <CTA />}
-      </div>
+      <HomeShowcase />
     </>
   );
 };

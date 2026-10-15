@@ -34,7 +34,7 @@ const Footer = () => {
                 className="object-contain"
               />
 
-              <h3 className="text-white text-2xl font-bold leading-none"></h3>
+
             </div>
 
             <p className="text-zinc-400 text-md font-medium max-w-md">
@@ -47,6 +47,7 @@ const Footer = () => {
                   social.enabled && (
                     <motion.a
                       key={social.platform}
+                      aria-label={social.platform === "Email" ? "Email Orbet" : social.platform}
                       href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -71,7 +72,7 @@ const Footer = () => {
                   <li key={link.label} className="relative group w-fit">
                     <Link
                       href={link.url}
-                      className="group flex items-center text-zinc-500 hover:text-[#C8FF00] transition-all duration-300 text-md font-semibold min-h-8"
+                      className="group flex items-center text-zinc-400 hover:text-[#C8FF00] transition-all duration-300 text-md font-semibold min-h-8"
                     >
                       <span className="capitalize group-hover:translate-x-1 transition-transform duration-300">
                         {link.label}
@@ -107,11 +108,11 @@ const Footer = () => {
 
           <Link
             href={config.status.url}
-            className="flex items-center gap-2 bg-emerald-900/40 px-3 py-1.5 rounded-full border-2 border-emerald-500/50 hover:bg-emerald-950/15 transition-colors"
+            className="flex items-center gap-2 bg-zinc-900 px-3 py-1.5 rounded-full border-2 border-zinc-700 hover:bg-zinc-800 transition-colors"
           >
-            <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_#10b981]" />
+            <div className="w-2 h-2 rounded-full bg-zinc-400" />
 
-            <span className="text-emerald-400 text-xs font-bold">
+            <span className="text-zinc-300 text-xs font-bold">
               {config.status.text}
             </span>
           </Link>

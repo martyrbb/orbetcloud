@@ -1,32 +1,56 @@
 {
-  "name": "Discord Bot",
-  "heroImage": "/images/discord-bg.webp",
-  "description": "Deploy your Discord bots on ultra-reliable, low-latency infrastructure. Engineered for Node.js, Python, Java, and Go with an automated 100% uptime guarantee.",
-  "accent": "#5865F2",
+  "name": "Orbet",
+  "description": "Start with the essentials. Unlock more as you grow. Bring bookings, customers and everyday operations together with Orbet.",
+  "accent": "#C8FF00",
   "plans": [
     {
-      "name": "Starter",
-      "ram": "1 GB",
-      "cpu": "1",
-      "ssd": "10 GB",
-      "traffic": "Unmetered",
-      "uplink": "1 Gbps",
-      "ipv4": "Shared Ports",
-      "ddos": "Advanced",
-      "price": 2.99,
-      "orderLink": ""
+      "name": "Growth",
+      "monthlyPrice": 59,
+      "featured": false,
+      "description": "The essentials for taking bookings and building customer relationships.",
+      "featureHeading": "Your foundation",
+      "features": [
+        "Online bookings, sessions and events",
+        "Customer management",
+        "Deposits and no-show protection",
+        "Booking extras and custom fields",
+        "Gift vouchers",
+        "Digital waivers",
+        "Booking and revenue reporting"
+      ]
     },
     {
-      "name": "Ultra",
-      "ram": "4 GB",
-      "cpu": "2",
-      "ssd": "40 GB",
-      "traffic": "Unmetered",
-      "uplink": "10 Gbps",
-      "ipv4": "Dedicated Ports",
-      "ddos": "Advanced",
-      "price": 8.99,
-      "orderLink": ""
+      "name": "Pro",
+      "monthlyPrice": 89,
+      "featured": true,
+      "description": "The complete Orbet platform, made your own. All the tools, with your branding.",
+      "featureHeading": "Everything in Growth, plus",
+      "features": [
+        "Custom domain",
+        "Your branding, with Orbet branding removed",
+        "Memberships and member events",
+        "OrbetPOS\u2122 and kitchen display",
+        "Order at table and online ordering",
+        "Staff rotas and timesheets",
+        "Marketing campaigns and automations",
+        "Pre-orders and wait lists",
+        "Custom email templates"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "monthlyPrice": null,
+      "featured": false,
+      "description": "The full Pro package, tailored for larger venues and multi-venue operations.",
+      "featureHeading": "Pro, tailored to your operation",
+      "features": [
+        "Pricing tailored to your operation",
+        "Planning for larger venues and multiple locations",
+        "A coordinated rollout plan",
+        "Onboarding tailored to your teams",
+        "Integration requirements scoped with you",
+        "Agreed support and commercial terms"
+      ]
     }
   ]
 }
