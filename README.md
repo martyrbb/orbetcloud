@@ -1,87 +1,69 @@
-$$\                                                    $$\   $$\                       $$\     
-$$ |                                                   $$ |  $$ |                      $$ |    
-$$ |     $$\   $$\ $$$$$$$\   $$$$$$\   $$$$$$\        $$ |  $$ | $$$$$$\   $$$$$$$\ $$$$$$\   
-$$ |     $$ |  $$ |$$  __$$\  \____$$\ $$  __$$\       $$$$$$$$ |$$  __$$\ $$  _____|\_$$  _|  
-$$ |     $$ |  $$ |$$ |  $$ | $$$$$$$ |$$ |  \__|      $$  __$$ |$$ /  $$ |\$$$$$$\    $$ |    
-$$ |     $$ |  $$ |$$ |  $$ |$$  __$$ |$$ |            $$ |  $$ |$$ |  $$ | \____$$\   $$ |$$\ 
-$$$$$$$$\\$$$$$$  |$$ |  $$ |\$$$$$$$ |$$ |            $$ |  $$ |\$$$$$$  |$$$$$$$  |  \$$$$  |
-\________|\______/ \__|  \__| \_______|\__|            \__|  \__| \______/ \_______/    \____/
+# Orbet public website
 
-Made with <3 By Huzi
+Next.js website for Orbet, with a connected homepage, feature explorer, pricing, five platform pages, resources, support and contact pages.
 
-Thank you martyrbb for purchasing Lunar Host Template. You can follow the instructions below to get your website up and running in no time! 
-You are using 280816 of the template.
-You downloaded this template from true (https://builtbybit.com).
+## Run locally
 
-## Installation
-1. Download the latest release of the template from BuiltByBit.
-2. Extract the downloaded zip file to your desired location.
-3. Open the extracted folder and open VS Code or your preferred code editor.
-4. Drag the folder into your code editor to open the project.
-5. Install the packages by running `npm install` in the terminal (This may take a few minutes to complete.)
-6. Once the installation is complete, you can start the development server by running `npm run dev`
-7. Open your browser and navigate to `http://localhost:3002` to see your website!
+Use a current Node.js version supported by the package dependencies.
 
-## Home Page Configuration
-To customize the template, you can edit the files in the `config` folder.
-- `config/home/app.json` - This file contains the configuration for your brand name and meta description.
-- `config/home/hero.json` - This file contains the configuration for the main section with Title, description and buttons. This file also allows to enable to disable any section.
-- `config/home/navbar.json` - This file contains the configuration for the navbar including the promotion bar too.
-- `config/home/footer.json` - This file contains the configuration for the footer section.
-- `config/home/partners.json` - This file contains the configuration for the partners section (The logos that appear under the hero section).
-- `config/home/features.json` - This file contains the configuration for the features section.
-- `config/home/services.json` - This file contains the configuration for the services section.
-- `config/home/locations.json` - This file contains the configuration for the locations section.
-- `config/home/panel.json` - This file contains the configuration for the panel section.
-- `config/home/hardware.json` - This file contains the configuration for the hardware section.
-- `config/home/testimonials.json` - This file contains the configuration for the testimonials section.
-- `config/home/faq.json` - This file contains the configuration for the FAQ section.
-- `config/home/cta.json` - This file contains the configuration for the call to action section (The section showing Ready To Get Started?).
+```sh
+npm ci
+npm run dev
+```
 
-## Game Servers Page Configuration
-To customize the template, you can edit the files in the `config` folder.
-- `config/games/minecraft.json` - This file contains the configuration for the Minecraft section in Game Servers Page.
-- `config/games/rust.json` - This file contains the configuration for the Rust section in Game Servers Page.
-- `config/games/fivem.json` - This file contains the configuration for the FiveM section in Game Servers Page.
-- `config/games/hytale.json` - This file contains the configuration for the Hytale section in Game Servers Page.
+The development server uses port 3002. For a production build:
 
-## Root Servers Page Configuration
-To customize the template, you can edit the files in the `config` folder.
-- `config/root-servers/amd.json` - This file contains the configuration for the AMD section in Root Servers Page.
-- `config/root-servers/intel.json` - This file contains the configuration for the Intel section in Root Servers Page.
+```sh
+npm run lint
+npm run build
+npm run start
+```
 
-## Dedicated Servers Page Configuration
-To customize the template, you can edit the files in the `config` folder.
-- `config/dedicated-servers/plans.json` - This file contains the configuration for the Ryzen section in Dedicated Servers Page.
+## Public pages
 
-## Images Configuration
-To change the images in the template, you can replace the images in the `public/images` folder with your own images. Some images may require you to change the image name in the configuration files mentioned above.
+- `/`: homepage; original hero with a product showcase below it.
+- `/features`: category filters and integrations.
+- `/pricing`: Growth, Pro and Enterprise, with monthly/annual controls.
+- `/platform`: overview and five pages under `/platform/`.
+- `/resources`: three getting-started and planning guides.
+- `/about`, `/support`, `/faq`, `/contact`.
 
-## Hosting The Template
-To host the template, you can use any hosting provider that supports Node.js applications or you can use VPS. Some popular hosting providers include:
-- RaveNodes (https://ravenodes.com)
-- Cloudflare Pages
-- Vercel
-- Netlify
-- Heroku
-- DigitalOcean
-- AWS
+The contact form prepares a draft addressed to `support@orbet.co.uk` in the visitor’s email app. It does not send or store messages through a server. Direct email links are also provided.
 
-## After choosing a provider the following steps are generally required:
-1. Upload your project files to the hosting provider (Make sure to delete the `node_modules`, `.next`, folder before uploading).
-2. Install the dependencies by running `npm install` in the terminal of your hosting provider.
-3. Build the application by running `npm run build` in the terminal of your hosting provider.
-4. Make a reverse proxy to the port `3002` (or the port you have configured) to serve the application.
+Growth/Pro signup links use `https://orbet.co.uk/signup/` with `plan=growth|pro` and `billing=monthly|annual`. The signup system is not part of this repository. Its application must handle those parameters to preselect the choices. Login remains at the configured `https://auth.orbetcloud.com` destination.
 
-## Support
-- If you need any help or have any questions, feel free to contact me at: https://discord.gg/TGqdHr94E8
+## Content and configuration
 
-## EULA
-By purchasing this template, you agree to the following terms and conditions:
-1. You are allowed to use this template for personal and commercial projects.
-2. You are not allowed to resell or redistribute this template in any form.
-3. You are not allowed to claim this template as your own work.
-4. You are not allowed to use this template for any illegal or unethical purposes.
-5. The author is not responsible for any damage or loss caused by using this template.
-6. The author reserves the right to update or modify this EULA at any time without prior notice.
-7. By using this template, you agree to BuiltByBit's EULA.
+- Homepage sections: `components/HomeShowcase.tsx`.
+- Hero content: `config/home/hero.json`; hero design: `components/Hero.tsx`.
+- Pricing content: `config/bot-hosting/plans.json` (internal filename retained).
+- Features: `app/features/FeaturesExplorer.tsx`.
+- Platform copy: `lib/platform-pages.ts`.
+- Guides and FAQs: `lib/resources.ts`.
+- Navigation/footer/metadata: `config/home/`.
+- Social preview: `app/opengraph-image.tsx`.
+
+Workspace illustrations on the homepage use labelled sample data. They are not screenshots of the live application.
+
+Stripe, Square and Twilio are listed as available based on the owner’s confirmation. Mailchimp is marked in development. Provider fees and final commercial/tax terms are separate.
+
+## Handoff items before launch
+
+- Supply approved Orbet terms, privacy, refund and service-level documents. The four old legal URLs currently display a clearly marked pending-document notice with `noindex`. Old hosting-company terms are no longer displayed.
+- Connect and verify the separate signup application, including plan and billing selection.
+- If direct website enquiry submission is required, connect an email/form backend; the current contact form only prepares email drafts.
+- Verify login and service-status destinations, commercial/tax terms and permissions for the existing hero venue logos. The hero logo strip has been preserved from the supplied project.
+
+## Updating an existing repository
+
+Replace the project with this ZIP’s `orbetcloud-main` contents. Copying files over an existing checkout does not remove obsolete files. Delete these old tracked files if they remain:
+
+- `app/bot-hosting/page.tsx`
+- `app/game-servers/page.tsx`
+- `app/root-servers/page.tsx`
+- `app/dedicated-servers/page.tsx`
+- `app/favicon.ico`
+
+Redirects in `next.config.ts` preserve old URLs. `/bot-hosting` permanently redirects to `/pricing`. Legacy hosting routes redirect to the relevant Orbet platform pages. `/get-started` temporarily redirects to the supplied signup destination.
+
+Do not commit `node_modules`, `.next`, or intermediate work files. This source ZIP excludes them.
