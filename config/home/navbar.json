@@ -79,7 +79,7 @@
   "buttons": {
     "login": {
       "label": "Login",
-      "href": "https://auth.orbetcloud.com",
+      "href": "https://orbetcloud.com",
       "enabled": true
     },
     "signup": {
